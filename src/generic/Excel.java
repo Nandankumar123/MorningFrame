@@ -6,7 +6,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class Excel {
-	public  static String getData(String p,String s,int r,int c) {
+	public  static String getValue(String p,String s,int r,int c) {
 		String v="";
 		try {
 			Workbook wb=WorkbookFactory.create(new FileInputStream(p));
